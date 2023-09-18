@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Practice">
+      <UniqueIdentifier>{fa13f3d5-7199-4a36-a323-b72e0c5a39a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\entities_screan">
+      <UniqueIdentifier>{9b82b8bc-f3ae-48e4-b3d6-7ac0d6f9b2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\practice">
+      <UniqueIdentifier>{878de148-7e07-42f0-af67-986c43fd2127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\struct">
+      <UniqueIdentifier>{dd669c4f-f3e8-4f95-ad18-48ca8de7f1e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="pracrice.cpp">
+      <Filter>Practice\practice</Filter>
+    </ClCompile>
+    <ClCompile Include="pracrice_Day2.cpp">
+      <Filter>Practice\practice</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Practice\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Practice\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Practice\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroEntity.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Practice\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="SlimeEntity.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitiesPool.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Practice\practice</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveEntity.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleEntities.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinEntity.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+    <ClCompile Include="WallEntity.cpp">
+      <Filter>Practice\entities_screan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entities.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Practice\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Practice\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Practice\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroEntity.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Practice\practice</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Practice\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="SlimeEntity.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitiesPool.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveEntity.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleEntities.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="WallEntity.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinEntity.h">
+      <Filter>Practice\entities_screan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SeminarMario.vcxproj.user">
+      <Filter>Practice\practice</Filter>
+    </None>
+  </ItemGroup>
+</Project>
